@@ -8,7 +8,7 @@ connectToMongo();
 
 app.use(cors(
   {
-    origin: ["https://65450c555636ae6850ffcf0f--elegant-cactus-6acd68.netlify.app"],
+    origin: ["https://i-note.netlify.app"],
     methods: ["POST", "GET","DELETE","PUT"], 
     credentials: true
   }

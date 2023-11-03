@@ -20,6 +20,9 @@ app.get('/',(res,req)=>{
 app.use('/api/auth', require('./routes/Auth'))
 app.use('/api/notes', require('./routes/Notes'))
 
+app.listen(3001, () => {
+    console.log("Server is Running")
+})
 
 
 

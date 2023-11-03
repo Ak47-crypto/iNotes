@@ -8,7 +8,7 @@ connectToMongo();
 
 app.use(cors(
   {
-    origin: ["http://localhost:3000/"],
+    origin: ["https://654502393a4ed44805222e36--elegant-cactus-6acd68.netlify.app"],
     methods: ["POST", "GET","DELETE","PUT"], 
     credentials: true
   }

@@ -6,7 +6,13 @@ const port = 2000
 var cors = require('cors')
 connectToMongo();
 
-app.use(cors())
+app.use(cors(
+  {
+    origin: ["http://localhost:3000/"],
+    methods: ["POST", "GET","DELETE","PUT"], 
+    credentials: true
+  }
+))
 app.use(express.json())
 
 app.use('/api/auth', require('./routes/Auth'))

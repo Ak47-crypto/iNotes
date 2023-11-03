@@ -20,9 +20,7 @@ app.get('/',(res,req)=>{
 app.use('/api/auth', require('./routes/Auth'))
 app.use('/api/notes', require('./routes/Notes'))
 
-app.listen(port, () => {
-  console.log(`server started on https://localhost:${port}`)
-})
+
 
 
 

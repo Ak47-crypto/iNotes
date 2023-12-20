@@ -7,7 +7,7 @@ export default function Home() {
   
   <div className="d-flex align-items-center justify-content-center my-5">
             <div className="text-center">
-            <h1>Designed and Developed by AK</h1>
+            <h1>Designed and Developed by Vikash</h1>
                 <h1 className="display-1 fw-bold">iNOTES</h1>
                 <p className="fs-3"> <span className="text-danger">Welcomes you</span> here</p>
                 <p className="lead">

@@ -14,7 +14,7 @@ app.use(cors(
   }
 ))
 app.use(express.json())
-app.get('/',(res,req)=>{
+app.get('/',(req,res)=>{
   res.json({message:"welcomes you in inotes"})
 })
 app.use('/api/auth', require('./routes/Auth'))
